@@ -1,0 +1,33 @@
+# ══════════════════════════════════════════
+# 🔒 Files to never push to GitHub
+# ══════════════════════════════════════════
+
+# Your credentials — critical! ❌
+.env
+
+# Bot screenshots
+*.png
+
+# Log files
+*.log
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Node modules (for GUI)
+node_modules/
+dist/
+.next/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
